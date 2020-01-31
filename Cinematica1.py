@@ -1,3 +1,7 @@
+# author: Federico von der Pahlen
+# date: 18-12-2019
+
+
 #cargar librerias
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,8 +49,8 @@ plt.plot(tlin,xlinB,label="B")
 #forma alternativa
 #plt.plot(tlin,fAx(tlin))
 #plt.plot(tlin,fBx(tlin))
-plt.xlabel("x[metros]")
-plt.ylabel("t[segundos]")
+plt.ylabel("x[metros]")
+plt.xlabel("t[segundos]")
 
 plt.xlim(0,40)
 plt.ylim(0,120)
@@ -104,8 +108,8 @@ plt.plot(tlin,xlinD,label="B, a=0.15")
 #plt.plot(tlin,fAx(tlin))
 #plt.plot(tlin,fBx(tlin))
 
-plt.xlabel("x[metros]")
-plt.ylabel("t[segundos]")
+plt.ylabel("x[metros]")
+plt.xlabel("t[segundos]")
 
 plt.xlim(0,50)
 plt.ylim(0,160)
@@ -129,8 +133,8 @@ plt.plot(tlin,xCA,label="B, a=0.1")
 plt.plot(tlin,xDA,label="B, a=0.15")
 plt.plot(tlin,xterreno,label="posicion xA0")
 
-plt.xlabel("x[metros]")
-plt.ylabel("t[segundos]")
+plt.ylabel("x[metros]")
+plt.xlabel("t[segundos]")
 
 plt.xlim(0,50)
 plt.ylim(-125,100)
